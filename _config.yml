@@ -25,12 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "developer.conexus.vision" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: CoNexusHQ
+github_username:  CoNexusHQ
 
 # Build settings
-theme: minima
+theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
@@ -53,3 +54,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# just-the-doc config
+logo: "/assets/images/just-the-docs.png"
+
+# Footer content
+footer_content: "Copyright &copy; 2021 CoNexus BV. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
+
+heading_anchors: true
